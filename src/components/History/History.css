@@ -1,0 +1,17 @@
+.history {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+}
+
+.history__heading {
+    font-size: 18px;
+}
+
+.history__list {
+    min-width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

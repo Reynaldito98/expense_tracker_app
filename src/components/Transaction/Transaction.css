@@ -1,0 +1,37 @@
+.transaction {
+    max-width: 100%;
+    display: flex;
+    padding-left: 3px;  
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    height: 25px;
+}
+
+.transaction__heading {
+    font-size: 12px;
+}
+
+.transaction__number {
+    font-size: 12px;
+}
+
+.transaction__color {
+    min-width: 5px;
+    height: 25px;
+}
+
+.transaction__color_green {
+    background-color: green;
+}
+
+.transaction__color_red {
+    background-color: red;
+}
+
+.transaction__right-column {
+    display: flex;  
+    gap: 15px;
+    align-items: center;
+}
